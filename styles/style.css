@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
+url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -50,24 +50,10 @@ body {
 .nav__link:hover {
     color: #ff6b6b;
 }
-.header__burger {
-    display: none;
-    flex-direction: column;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 5px;
-}
-.burger__line {
-    width: 25px;
-    height: 3px;
-    background: #333;
-    margin: 3px 0;
-    transition: 0.3s;
-}
+
 
 .hero {
-    background: url('https://i.ibb.co/0jbg9szG/background2.png') center/cover;
+    background: url('https://i-mg24.ru/images/030126195047-fgpui.png') center/cover;
     color: white;
     padding: 150px 0 100px;
     text-align: center;
@@ -144,46 +130,38 @@ body {
 }
 .products {
     padding: 80px 0;
-    background: url('https://i.ibb.co/tpZqXPLv/bg-grid2.png') center/cover;
+    background: #CBF3F0;
 }
+
 .products__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     margin-top: 50px;
 }
+
 .product-card {
-    background: white;
-    border-radius: 15px;
+    background: #ffffff;
     padding: 30px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-    background: rgba(255, 255, 255, 0.95);
 }
 
-.product-card:hover {
-    transform: translateY(-10px);
-}
 .product-card__image {
     width: 200px;
     height: 200px;
     margin: 0 auto 20px;
-    border-radius: 15px;
-    background: #ddd;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    border: 3px solid #fff;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background-repeat: no-repeat;
 }
 .product-card__image--square {
-    background: url('https://i.ibb.co/NHG6GqN/square.png') center/cover;
+    background: url('https://i-mg24.ru/images/030126195134-o0qud.png') center/cover;
 }
 .product-card__image--marble {
-    background: url('https://i.ibb.co/pcc4GNH/amongus.png') center/cover;
+    background: url('https://i-mg24.ru/images/030126195208-xf754.png') center/cover;
 }
 .product-card__image--round {
-    background: url('https://i.ibb.co/ZRjhVgrs/round.png') center/cover;
+    background: url('https://i-mg24.ru/images/030126195236-0mia9.png') center/cover;
 }
 .product-card__title {
     font-size: 1.3rem;
@@ -193,7 +171,7 @@ body {
 }
 .rules {
     padding: 80px 0;
-    background: url('https://i.ibb.co/MkSjCQfF/background.png') center/cover;
+    background: url('https://i-mg24.ru/images/030126195503-ivuos.png') center/cover;
 }
 .rules__content {
     display: grid;
@@ -205,7 +183,7 @@ body {
 .rules__demo {
     width: 100%;
     height: 300px;
-    background: url('https://i.ibb.co/Rk8hJHjZ/photo.jpg') center/cover;
+    background: url('https://i-mg24.ru/images/030126195313-noqfb.jpg') center/cover;
     border-radius: 15px;
     display: flex;
     align-items: center;
